@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "scud2query"
+version = "1.0.0"
+description = ""
+authors = ["Yuta Hayashibe <hayashibe@megagon.ai>"]
+maintainers = ["Yuta Hayashibe <hayashibe@megagon.ai>"]
+license = ""
+readme = "README.md"
+homepage = ""
+repository = ""
+documentation = ""
+keywords = []
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+
+[tool.poetry.dev-dependencies]
+yamllint = ">=1.25.0"
+asdc = {git = "https://github.com/megagonlabs/asdc", rev = "v4.8.4"}
+
+[build-system]
+requires = ["poetry-core>=1.2.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+
+[tool.poetry.urls]
+issues = ""
+
+[tool.pyright]
+pythonVersion = "3.9"
+typeCheckingMode = "basic"
+reportUnusedVariable="warning"
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+profile = "black"
+line_length = 120
