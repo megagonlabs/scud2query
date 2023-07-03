@@ -11,8 +11,8 @@ Rewritten SCUDs of [asdc](https://github.com/megagonlabs/asdc) for accommodation
 
 | SCUD | Query |
 | --- | --- |
-| 部屋に冷蔵庫があると良い | 部屋に冷蔵庫がある。 |
-| 【customer】がレンタカーを借りると思っている。 | レンタカーを借りらる。 |
+| 部屋に冷蔵庫があると良い。 | 部屋に冷蔵庫がある。 |
+| レンタカーサービスがあるホテルを【customer】が希望する。 | レンタカーサービスがあるホテルだ。|
 
 ## Format
 
